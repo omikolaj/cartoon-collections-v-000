@@ -21,7 +21,6 @@ def find_the_cheese(arr)# code an argument here
   while(i<arr.length)
     if(cheese_types.include?(arr[i]))
       return got=arr[i]
-      binding.pry
     else
       i+=1
     end
